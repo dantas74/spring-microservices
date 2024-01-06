@@ -2,6 +2,6 @@ package br.com.microservices.orchestrated.orchestratorservice.core.enums;
 
 public enum ESagaStatus {
     SUCCESS,
-    ROLLBACK_FAILING,
+    ROLLBACK_PENDING,
     FAIL
 }
