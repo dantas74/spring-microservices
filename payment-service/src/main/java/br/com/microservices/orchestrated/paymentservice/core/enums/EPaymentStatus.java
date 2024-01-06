@@ -1,7 +1,7 @@
 package br.com.microservices.orchestrated.paymentservice.core.enums;
 
-public enum ESagaStatus {
+public enum EPaymentStatus {
+    PENDING,
     SUCCESS,
-    ROLLBACK_PENDING,
-    FAIL
+    REFUND
 }
